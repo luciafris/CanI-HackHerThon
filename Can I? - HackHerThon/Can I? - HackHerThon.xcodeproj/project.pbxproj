@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ECF4EDE25F3DBC1003071AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF4EDD25F3DBC1003071AC /* AppDelegate.swift */; };
+		3ECF4EE025F3DBC1003071AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF4EDF25F3DBC1003071AC /* SceneDelegate.swift */; };
+		3ECF4EE225F3DBC1003071AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF4EE125F3DBC1003071AC /* ViewController.swift */; };
+		3ECF4EE525F3DBC1003071AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF4EE325F3DBC1003071AC /* Main.storyboard */; };
+		3ECF4EE725F3DBC3003071AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF4EE625F3DBC3003071AC /* Assets.xcassets */; };
+		3ECF4EEA25F3DBC3003071AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF4EE825F3DBC3003071AC /* LaunchScreen.storyboard */; };
+		3ECF4EFB25F3E1B0003071AC /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF4EFA25F3E1B0003071AC /* Logo.png */; };
+		3EF638A125F4132C00AD7BDC /* Design.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF638A025F4132C00AD7BDC /* Design.png */; };
+		8FAEC17CEF973C81FE2272BC /* Pods_Can_I____HackHerThon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50519DF4A31D5E930E9F9C5E /* Pods_Can_I____HackHerThon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3ECF4EDA25F3DBC1003071AC /* Can I? - HackHerThon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Can I? - HackHerThon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECF4EDD25F3DBC1003071AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3ECF4EDF25F3DBC1003071AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3ECF4EE125F3DBC1003071AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3ECF4EE425F3DBC1003071AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ECF4EE625F3DBC3003071AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3ECF4EE925F3DBC3003071AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3ECF4EEB25F3DBC3003071AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECF4EFA25F3E1B0003071AC /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo.png; path = ../../../Downloads/Logo.png; sourceTree = "<group>"; };
+		3EF638A025F4132C00AD7BDC /* Design.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Design.png; path = ../../../Downloads/Design.png; sourceTree = "<group>"; };
+		43C10413CA19A6B4B429283B /* Pods-Can I? - HackHerThon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Can I? - HackHerThon.debug.xcconfig"; path = "Target Support Files/Pods-Can I? - HackHerThon/Pods-Can I? - HackHerThon.debug.xcconfig"; sourceTree = "<group>"; };
+		50519DF4A31D5E930E9F9C5E /* Pods_Can_I____HackHerThon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Can_I____HackHerThon.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB08C444FAB83480CCC063E /* Pods-Can I? - HackHerThon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Can I? - HackHerThon.release.xcconfig"; path = "Target Support Files/Pods-Can I? - HackHerThon/Pods-Can I? - HackHerThon.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ECF4ED725F3DBC1003071AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FAEC17CEF973C81FE2272BC /* Pods_Can_I____HackHerThon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D41747A083A14A16260C08D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50519DF4A31D5E930E9F9C5E /* Pods_Can_I____HackHerThon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3ECF4ED125F3DBC1003071AC = {
+			isa = PBXGroup;
+			children = (
+				3ECF4EDC25F3DBC1003071AC /* Can I? - HackHerThon */,
+				3ECF4EDB25F3DBC1003071AC /* Products */,
+				9AB8A89E2888E57689311DCA /* Pods */,
+				1D41747A083A14A16260C08D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3ECF4EDB25F3DBC1003071AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF4EDA25F3DBC1003071AC /* Can I? - HackHerThon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ECF4EDC25F3DBC1003071AC /* Can I? - HackHerThon */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF4EDD25F3DBC1003071AC /* AppDelegate.swift */,
+				3ECF4EDF25F3DBC1003071AC /* SceneDelegate.swift */,
+				3ECF4EE125F3DBC1003071AC /* ViewController.swift */,
+				3ECF4EE325F3DBC1003071AC /* Main.storyboard */,
+				3ECF4EE625F3DBC3003071AC /* Assets.xcassets */,
+				3ECF4EFA25F3E1B0003071AC /* Logo.png */,
+				3EF638A025F4132C00AD7BDC /* Design.png */,
+				3ECF4EE825F3DBC3003071AC /* LaunchScreen.storyboard */,
+				3ECF4EEB25F3DBC3003071AC /* Info.plist */,
+			);
+			path = "Can I? - HackHerThon";
+			sourceTree = "<group>";
+		};
+		9AB8A89E2888E57689311DCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43C10413CA19A6B4B429283B /* Pods-Can I? - HackHerThon.debug.xcconfig */,
+				ABB08C444FAB83480CCC063E /* Pods-Can I? - HackHerThon.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ECF4ED925F3DBC1003071AC /* Can I? - HackHerThon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECF4EEE25F3DBC3003071AC /* Build configuration list for PBXNativeTarget "Can I? - HackHerThon" */;
+			buildPhases = (
+				ED60B72237F4FCA088CEEB85 /* [CP] Check Pods Manifest.lock */,
+				3ECF4ED625F3DBC1003071AC /* Sources */,
+				3ECF4ED725F3DBC1003071AC /* Frameworks */,
+				3ECF4ED825F3DBC1003071AC /* Resources */,
+				0F4E4A20A939B16C95BF6832 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Can I? - HackHerThon";
+			productName = "Can I? - HackHerThon";
+			productReference = 3ECF4EDA25F3DBC1003071AC /* Can I? - HackHerThon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ECF4ED225F3DBC1003071AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3ECF4ED925F3DBC1003071AC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 3ECF4ED525F3DBC1003071AC /* Build configuration list for PBXProject "Can I? - HackHerThon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ECF4ED125F3DBC1003071AC;
+			productRefGroup = 3ECF4EDB25F3DBC1003071AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ECF4ED925F3DBC1003071AC /* Can I? - HackHerThon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ECF4ED825F3DBC1003071AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECF4EEA25F3DBC3003071AC /* LaunchScreen.storyboard in Resources */,
+				3EF638A125F4132C00AD7BDC /* Design.png in Resources */,
+				3ECF4EE725F3DBC3003071AC /* Assets.xcassets in Resources */,
+				3ECF4EFB25F3E1B0003071AC /* Logo.png in Resources */,
+				3ECF4EE525F3DBC1003071AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F4E4A20A939B16C95BF6832 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Can I? - HackHerThon/Pods-Can I? - HackHerThon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Can I? - HackHerThon/Pods-Can I? - HackHerThon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Can I? - HackHerThon/Pods-Can I? - HackHerThon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED60B72237F4FCA088CEEB85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Can I? - HackHerThon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ECF4ED625F3DBC1003071AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECF4EE225F3DBC1003071AC /* ViewController.swift in Sources */,
+				3ECF4EDE25F3DBC1003071AC /* AppDelegate.swift in Sources */,
+				3ECF4EE025F3DBC1003071AC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3ECF4EE325F3DBC1003071AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ECF4EE425F3DBC1003071AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3ECF4EE825F3DBC3003071AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ECF4EE925F3DBC3003071AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ECF4EEC25F3DBC3003071AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3ECF4EED25F3DBC3003071AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ECF4EEF25F3DBC3003071AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C10413CA19A6B4B429283B /* Pods-Can I? - HackHerThon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Can I? - HackHerThon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "OsteoponTeam.Can-I----HackHerThon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ECF4EF025F3DBC3003071AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABB08C444FAB83480CCC063E /* Pods-Can I? - HackHerThon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Can I? - HackHerThon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "OsteoponTeam.Can-I----HackHerThon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ECF4ED525F3DBC1003071AC /* Build configuration list for PBXProject "Can I? - HackHerThon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECF4EEC25F3DBC3003071AC /* Debug */,
+				3ECF4EED25F3DBC3003071AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECF4EEE25F3DBC3003071AC /* Build configuration list for PBXNativeTarget "Can I? - HackHerThon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECF4EEF25F3DBC3003071AC /* Debug */,
+				3ECF4EF025F3DBC3003071AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ECF4ED225F3DBC1003071AC /* Project object */;
+}
